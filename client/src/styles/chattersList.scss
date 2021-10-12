@@ -1,0 +1,52 @@
+.chattersList {
+  height: calc(100vh - 175px);
+  overflow: auto;
+}
+
+.chattersList__title {
+  font-weight: 400;
+  font-size: 32px;
+  color: #009ef0;
+
+  margin: 50px 20px;
+}
+
+.chatter {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 2px $background-secondary solid;
+  padding: 20px;
+
+  transition: background-color .2s linear;
+
+  &:hover {
+    background-color: $background-primary;
+  }
+
+  & p {
+    margin: 0;
+  }
+}
+
+.chatter__info {
+  display: flex;
+}
+
+
+.chatter__detail {
+  margin-left: 10px;
+}
+
+.detail__name {
+  font-size: 18px;
+}
+
+.detail__message {
+  word-break: break-word;
+  color: $text-secondary;
+}
+
+.chatter__time {
+  white-space: nowrap;
+}
