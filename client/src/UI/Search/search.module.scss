@@ -1,0 +1,17 @@
+@import "../../styles/vars";
+
+.search {
+  box-sizing: border-box;
+  width: 100%;
+
+  background-image: url('loupe.png');
+  background-position: 10px 8px;
+  background-repeat: no-repeat;
+  background-color: $background-primary;
+
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  margin-top: 30px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
