@@ -1,6 +1,5 @@
 import React from 'react';
 import "../styles/sidebar.scss"
-import checked from "../UI/UserIcon/checked.png"
 import UserIcon from "../UI/UserIcon/UserIcon";
 import Search from "../UI/Search/Search";
 
@@ -11,7 +10,7 @@ const Sidebar = () => {
         <UserIcon
           imgUrl="https://placeimg.com/64/64/any"
         />
-        <Search />
+        <Search/>
       </div>
     </aside>
   );
