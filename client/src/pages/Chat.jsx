@@ -19,8 +19,12 @@ const Chat = () => {
       });
   },[])
 
+  const appendMessage = (message) => {
+    setMessages(mes => [...mes, message])
+  }
+
   return (
-    <UserContext.Provider value={{users, messages}}>
+    <UserContext.Provider value={{users, messages, appendMessage}}>
       <div className="App">
         <Sidebar/>
         <Route exact path="/chats/:id" component={ChatBody}/>

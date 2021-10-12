@@ -11,6 +11,7 @@
 .chat__header {
   display: flex;
   align-items: center;
+  height: 100px;
 
   padding: 5px 10px;
 
@@ -24,9 +25,19 @@
 }
 
 .chat__messagelist {
-  flex: 1 0 auto;
+  overflow: auto;
+  margin-bottom: 125px;
 }
 
 .chat__input {
-  flex: 0 0 auto;
+  height: 125px;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  width: $main-size;
+  padding: 30px 20px;
+  border-top: 1px $text-secondary solid;
+  background-color: $background-secondary;
 }
+
+@import "message";
