@@ -52,13 +52,13 @@
       "text": "I know, sorry...",
       "time": "2019-01-12T13:37:27+00:00"
     },{
-      "id": 4,
+      "id": 5,
       "chatId": 2,
       "receiver": false,
       "text": "Ill be soon...",
       "time": "2019-01-12T14:37:27+00:00"
     },{
-      "id": 3,
+      "id": 6,
       "chatId": 2,
       "receiver": true,
       "text": "Quick!",
