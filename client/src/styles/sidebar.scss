@@ -1,7 +1,12 @@
 @import "vars";
 
 .sidebar {
-  width: 33%;
+  box-sizing: border-box;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  width: $sidebar-size;
+  border-right: 1px solid $text-secondary;
 }
 
 .sidebar__header {
@@ -9,6 +14,8 @@
   box-sizing: border-box;
   padding: 10px 5px;
   background-color: $background-secondary;
+  border-bottom: 1px solid $text-secondary;
+
 }
 
 @import "chattersList";

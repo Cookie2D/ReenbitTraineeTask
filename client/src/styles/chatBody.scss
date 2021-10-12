@@ -1,0 +1,32 @@
+@import "vars";
+
+.chat__body {
+  margin-left: $sidebar-size;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.chat__header {
+  display: flex;
+  align-items: center;
+
+  padding: 5px 10px;
+
+  background-color: $background-secondary;
+  border-bottom: 1px solid $text-secondary;
+}
+
+.chat__username {
+  margin-left: 15px;
+  font-weight: 400;
+}
+
+.chat__messagelist {
+  flex: 1 0 auto;
+}
+
+.chat__input {
+  flex: 0 0 auto;
+}
