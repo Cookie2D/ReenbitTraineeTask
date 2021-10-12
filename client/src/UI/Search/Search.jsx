@@ -1,11 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
 import classes from './search.module.scss'
 
-const Search = () => {
-  const [search, setSearch] = useState('');
+const Search = ({value, setValue}) => {
 
   const handleChange = (event) => {
-    setSearch(event.target.value);
+    setValue(event.target.value);
   }
 
   return (
@@ -14,7 +13,7 @@ const Search = () => {
         type="text"
         placeholder="Search or start new chat"
         className={classes.search}
-        value={search}
+        value={value}
         onChange={handleChange}
       />
     </div>
