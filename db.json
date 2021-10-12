@@ -44,13 +44,25 @@
       "chatId": 2,
       "receiver": true,
       "text": "We are losing money! Quick!",
-      "time": "2019-03-12T15:37:27+00:00"
+      "time": "2019-03-12T12:37:27+00:00"
     },{
       "id": 4,
       "chatId": 2,
       "receiver": false,
       "text": "I know, sorry...",
       "time": "2019-01-12T13:37:27+00:00"
+    },{
+      "id": 4,
+      "chatId": 2,
+      "receiver": false,
+      "text": "Ill be soon...",
+      "time": "2019-01-12T14:37:27+00:00"
+    },{
+      "id": 3,
+      "chatId": 2,
+      "receiver": true,
+      "text": "Quick!",
+      "time": "2019-03-12T16:37:27+00:00"
     }
   ]
 }
