@@ -17,6 +17,12 @@
       "name": "Barrera",
       "image": "https://placeimg.com/128/128/any",
       "read": true
+    },
+    {
+      "id": 4,
+      "name": "Carl",
+      "image": "https://placeimg.com/128/128/any",
+      "read": false
     }
   ],
   "messages" : [
