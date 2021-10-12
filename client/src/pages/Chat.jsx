@@ -11,13 +11,28 @@ const Chat = () => {
 
 
   useEffect(() => {
-    axios.get("https://my-json-server.typicode.com/Cookie2D/ReenbitTraineeTask/db")
-      .then((res) => res.data)
-      .then(data => {
-        setUsers(data.users);
-        setMessages(data.messages);
-      });
+    if (!localStorage.users || !localStorage.messages.length) {
+      axios.get("https://my-json-server.typicode.com/Cookie2D/ReenbitTraineeTask/db")
+        .then((res) => res.data)
+        .then(data => {
+          setUsers(data.users);
+          setMessages(data.messages);
+          localStorage.users = JSON.stringify(data.users)
+          localStorage.messages = JSON.stringify(data.messages)
+        });
+    } else {
+      const user = JSON.parse(localStorage.users);
+      const message = JSON.parse(localStorage.messages);
+      setUsers(user)
+      setMessages(message)
+
+    }
+
   },[])
+
+  useEffect(() => {
+    localStorage.messages = JSON.stringify(messages)
+  }, [messages])
 
   const appendMessage = (message) => {
     setMessages(mes => [...mes, message])

@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext, useEffect, useRef, useState} from 'react';
 import "../styles/chatBody.scss"
 import UserIcon from "../UI/UserIcon/UserIcon";
 import {UserContext} from "../context/userContext";
@@ -11,6 +11,7 @@ const ChatBody = () => {
   const [user, setUser] = useState({});
   const [currentChatMessages, setCurrentChatMessages] = useState([]);
   const {users, messages} = useContext(UserContext);
+  const scrollElement = useRef(null);
   const {id} = useParams();
 
   useEffect(() => {
