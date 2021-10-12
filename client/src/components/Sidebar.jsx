@@ -1,23 +1,15 @@
 import React from 'react';
 import "../styles/sidebar.scss"
-import checked from "../assets/icons/checked.png"
+import checked from "../UI/UserIcon/checked.png"
+import UserIcon from "../UI/UserIcon/UserIcon";
 
 const Sidebar = () => {
   return (
     <aside className="sidebar">
       <div className="sidebar__header">
-        <div className="user__icon">
-          <img
-            src="https://placeimg.com/64/64/any"
-            alt="userName"
-            className="icon"
-          />
-          <img
-            src={checked}
-            alt="read"
-            className="user__read"
-          />
-        </div>
+        <UserIcon
+          imgUrl="https://placeimg.com/64/64/any"
+        />
         <div>
           <input
             type="text"
