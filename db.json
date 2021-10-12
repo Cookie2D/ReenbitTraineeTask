@@ -25,26 +25,26 @@
       "chatId": 1,
       "receiver": true,
       "text": "You are the worst!",
-      "time": "Nov 11, 2020"
+      "time": "2021-01-12T13:37:27+00:00"
     },
     {
       "id": 2,
       "chatId": 3,
       "receiver": true,
       "text": "Quickly come to the meeting room 1B, we have a big server issue",
-      "time": "Nov 11, 2020"
+      "time": "2020-03-12T13:37:27+00:00"
     },{
       "id": 3,
       "chatId": 2,
       "receiver": true,
       "text": "We are losing money! Quick!",
-      "time": "Nov 11, 2020"
+      "time": "2019-03-12T15:37:27+00:00"
     },{
       "id": 4,
       "chatId": 2,
       "receiver": false,
       "text": "I know, sorry...",
-      "time": "Nov 11, 2020"
+      "time": "2019-01-12T13:37:27+00:00"
     }
   ]
 }
