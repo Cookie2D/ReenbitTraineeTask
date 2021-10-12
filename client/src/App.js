@@ -1,9 +1,12 @@
-import Sidebar from "./components/Sidebar";
+import Chat from "./pages/Chat";
+import {Route, Switch} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Sidebar/>
+      <Switch>
+        <Route path="/chats" component={Chat} />
+      </Switch>
     </div>
   );
 }

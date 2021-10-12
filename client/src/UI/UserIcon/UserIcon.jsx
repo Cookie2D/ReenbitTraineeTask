@@ -2,7 +2,7 @@ import React from 'react';
 import checked from "./checked.png";
 import classes from './userIcon.module.scss';
 
-const UserIcon = ({imgUrl = "", read = false}) => {
+const UserIcon = ({imgUrl = "https://via.placeholder.com/64", read = false}) => {
   return (
     <div className={classes.user__icon}>
       <img
