@@ -5,10 +5,10 @@
 }
 
 .sidebar__header {
+  height: 175px;
   box-sizing: border-box;
   padding: 10px 5px;
   background-color: $background-secondary;
 }
 
-
-
+@import "chattersList";
