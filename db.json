@@ -3,25 +3,25 @@
     {
       "id": 1,
       "name": "Alice Freeman",
-      "image": "https://placeimg.com/128/128/any",
+      "image": "https://cdn-icons-png.flaticon.com/512/147/147144.png",
       "read": true
     },
     {
       "id": 2,
       "name": "Josefina",
-      "image": "https://placeimg.com/128/128/any",
+      "image": "https://cdn-icons-png.flaticon.com/512/147/147140.png",
       "read": true
     },
     {
       "id": 3,
       "name": "Barrera",
-      "image": "https://placeimg.com/128/128/any",
+      "image": "https://cdn.icon-icons.com/icons2/1999/PNG/512/avatar_guard_people_person_profile_user_icon_123363.png",
       "read": true
     },
     {
       "id": 4,
       "name": "Carl",
-      "image": "https://placeimg.com/128/128/any",
+      "image": "https://cdn.icon-icons.com/icons2/2122/PNG/512/doctor_medical_avatar_people_icon_131305.png",
       "read": false
     }
   ],
