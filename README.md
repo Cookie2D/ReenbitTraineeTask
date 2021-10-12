@@ -1,5 +1,5 @@
 # ReenbitTraineeTask
-# Host have trouble with react routing, if you update page you will be moved to 404page :c
+# Host have trouble with react routing, if you update on /chats page you will be moved to 404page :c
 Trainee test for Reenbit
 
 First of all i will create project diagram
